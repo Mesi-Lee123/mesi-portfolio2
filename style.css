@@ -163,16 +163,19 @@ footer {
   transform: scale(1.05);
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
 }
-
+.gallery > img {
+  width: 70%;
+  height: 50%;
+}
 @media (max-width: 768px) {
   .profile-pic img {
-    width: 140px;
+    width: 140x;
     height: 140px;
   }
 
 /* Fix Home page hero image size */
 .hero img {
-  max-width: 350px;   /* make it smaller */
+  width: 350px;   /* make it smaller */
   width: 100%;        /* keep responsive */
   height: auto;
   display: block;
@@ -209,11 +212,11 @@ footer {
   margin-top: 20px;
 }
 
-.dataset-img img {
-  max-width: 90%;
-  height: auto;
+dataset-img > img {
+  width: 70%;
+  height: 50%;
   border-radius: 10px;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
 
 }
